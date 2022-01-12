@@ -1,3 +1,3 @@
-module github.com/package/allsorting
+module github.com/go/sort
 
 go 1.17

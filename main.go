@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/package/allsorting/s"
+	"github.com/go/sort/s"
 )
 
 func main() {
