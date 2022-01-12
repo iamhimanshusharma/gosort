@@ -8,9 +8,7 @@ import (
 
 func main() {
 
-	arr := []int{3, 2, 5, 7, 3}
-
-	hold := s.SelectionSort(arr)
-
+	arr := []int{9, 5, 2, 56, 4, 3}
+	hold := s.BubbleSort(arr)
 	fmt.Println(hold)
 }
