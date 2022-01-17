@@ -1,3 +1,3 @@
-module github.com/go/sort
+module sorting
 
 go 1.17

@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/go/sort/s"
+	"sorting/s"
 )
 
 func main() {
 
-	arr := []int{9, 5, 2, 56, 4, 3}
-	hold := s.BubbleSort(arr)
-	fmt.Println(hold)
+	arr := []int{5, 3, 6, 7, 8}
+	shift := s.InsertionSort(arr)
+	fmt.Println(shift)
 }
